@@ -15,14 +15,7 @@ body {
 
 iframe {
 	display: block;
-	width: 100%;
+	margin: auto auto;
+	width: 90%;
 	height: 100%;
-}
-
-#previous {
-	display: none;
-}
-
-#next {
-	display: none;
 }
