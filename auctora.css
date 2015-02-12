@@ -1,6 +1,6 @@
 img {
-	max-width: 100%;
-	height: 100%;
+	max-width: 95%;
+	height: 95%;
 	overflow: hidden;
 	background-size: cover;
 	margin-left: auto;
@@ -17,5 +17,22 @@ iframe {
 	display: block;
 	margin: auto auto;
 	width: 90%;
-	height: 100%;
+	height: 95%;
+}
+
+button {
+  -webkit-border-radius: 7;
+  -moz-border-radius: 7;
+  border-radius: 7px;
+  font-family: Arial;
+  color: #adadad;
+  font-size: 15px;
+  background: #000000;
+  padding: 5px 10px 5px 10px;
+  text-decoration: none;
+}
+
+button:hover {
+  background: #5c5c5c;
+  text-decoration: none;
 }

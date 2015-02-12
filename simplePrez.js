@@ -1,4 +1,12 @@
 window.onload = function() {
+    document.getElementById("prevButton").addEventListener("click", function() {
+      prevSlide();
+    });
+
+    document.getElementById("nextButton").addEventListener("click", function() {
+      nextSlide();
+    });
+
     nextSlide();
 }
 
